@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Joe's PCs</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 50%;
+  background-color: #333;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: #444;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 200px;
+  text-align: center;
+  background: #333;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Computers by Joe</h1>
+  <p>Order computers to the specs that you want</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">PCs Made to Order</a>
+  <a href="contact.html" class="right">Contact Us/Order</a>
+  <a href="about.html" class="right">About</a>
+  <a href="index.html" class="right">Home</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <img src="http://ec2-18-224-52-71.us-east-2.compute.amazonaws.com:3000/images/PC_1.jpg" alt="PC_1" width="500" height="333"><br>
+    <img src="http://ec2-18-224-52-71.us-east-2.compute.amazonaws.com:3000/images//PC_2.jpg" alt="PC_2" width="500" height="333">
+  </div>
+  <div class="main">
+	  <p style="color:white;">Welcome to my business, I make computers within your budget, or any other specifications you want.<br> As long as you contact me with your budget and what you plan to do with said PC. <br> I will also look into peripherals and all cables needed to run it, if they aren't included.</p>
+    <br>
+    <img src="http://ec2-18-224-52-71.us-east-2.compute.amazonaws.com:3000/images//PC_3.jpg" alt="PC_3" >
+  </div>
+</div>
+
+<div class="footer">
+  <h2></h2>
+</div>
+
+</body>
+</html>
